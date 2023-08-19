@@ -1,7 +1,4 @@
-p=input("enter").split()
-o= [int(e) for e in p]
-n=tuple(o)
-print(n)
+n=list(map(int,input("enter:").split()))
 even_no=0
 odd_no=0
 for i in n:
